@@ -1053,10 +1053,10 @@ class: img-right
 **Recently HashiCorp announced TFC4B. Here is the list of additional capabilities that you will get with that tier**
 
 ---
-name: TFE-Chapter-5
+name: TFE-Chapter-6
 class: title
 
-# Chapter 5
+# Chapter 6
 ## Bonus Lab & Extra Resources
 
 ---

@@ -1,0 +1,20 @@
+#!/bin/bash -l
+set -e
+
+set-workdir /root/hashicat-aws
+
+# Give the student a head start.
+cp /root/hashicat-aws/exercises/remote_backend.tf /root/hashicat-aws/remote_backend.tf
+
+mkdir -p /root/.terraform.d
+cat <<-EOF > /root/.terraform.d/credentials.tfrc.json
+{
+  "credentials": {
+    "app.terraform.io": {
+      "token": "YOURTOKEN"
+    }
+  }
+}
+EOF
+
+exit 0
